@@ -168,7 +168,7 @@ class CicdDashboardScreen extends StatelessWidget {
               width: 40,
               height: 40,
               decoration: BoxDecoration(
-                color: iconColor.withOpacity(0.15),
+                color: iconColor.withValues(alpha: 0.15),
                 shape: BoxShape.circle,
                 border: Border.all(color: iconColor, width: 2),
               ),
@@ -225,7 +225,7 @@ class CicdDashboardScreen extends StatelessWidget {
               Text(
                 description,
                 style: TextStyle(
-                  color: Theme.of(context).colorScheme.onSurface.withOpacity(0.8),
+                  color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.8),
                   fontSize: 13,
                   height: 1.3,
                 ),
